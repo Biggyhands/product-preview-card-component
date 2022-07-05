@@ -37,7 +37,6 @@ body{
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin: 4rem 10rem;
     
 }
 .card-container{
@@ -48,7 +47,7 @@ body{
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin: auto auto;
+    margin: 50px 50px;
 
     border-radius: 0.9rem;
     background-color:var(--White);
@@ -76,7 +75,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .info-subtitle{
-    font-size:1.2rem;
+    font-size:1.3rem;
     font-weight: 500;
 }
 .info-paragraph{
@@ -132,6 +131,12 @@ body{
     font-family: 'Montserrat', sans-serif;
     color:white;
     font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.svg-button{
+    margin-right: 0.5rem;
 }
 .maranhita{
     margin-right: 10rem;
