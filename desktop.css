@@ -1,0 +1,77 @@
+@media (min-width: 1040px) {
+    
+    .main-container {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto 0 auto;
+        margin-top: 10rem;
+        display: flex;
+    }
+
+    .card-container {
+        margin: 10px 200px;
+        width: 700px;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .image-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.9rem 0 0 0.9rem;
+    }
+
+    .info-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-around;
+        margin: 0 0 0 2rem;
+    }
+
+    .info-title {
+        font-size: 3.8rem;
+        font-weight: bold;
+    }
+
+    .info-comp {
+        width: 100%;
+    }
+
+    .maranhita {
+        margin-right: 0;
+    }
+
+    .maranhita2 {
+        margin-right: 10rem;
+    }
+    
+
+    .big-tag {
+        font-size: 3.8rem;
+    }
+
+    .info-paragraph,
+    .tiny-tag {
+        font-size: 1.6rem;
+
+    }
+    .info-paragraph{
+        word-spacing:1.2rem;
+        margin-bottom: 0rem;
+    }
+}
